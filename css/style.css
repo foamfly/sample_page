@@ -1,0 +1,78 @@
+body{
+	padding-top: 20px;
+	color: #000;
+}
+
+.btn-primary{
+	color: #e4e3e2;
+	background-color: #222222;
+	border-color: #222222;
+	text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,{
+	color: white;
+	background-color: #000;
+}
+
+h3{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/********** HEADER **********/
+.header{
+	padding: 0;
+	margin: 0;
+}
+.header .nav {
+	display: block;
+}
+
+.header .nav > li{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.header .nav > li .dropdown,
+.header .nav > li .dropdown > a {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.header .nav > li.dropdown.user .dropdown-toggle .username {
+	color: #ddd;
+}
+
+.header .nav > li > a:focus, 
+.header .nav > li > a:hover {
+	background-color: #110e0f;
+	color: #000;
+}
+
+.header .nav > li.dropdown.user .dropdown-toggle:hover {
+  margin: 0px;
+}
+
+/******** .page-content *******/
+div.page-content{
+	padding-top: 30px;
+}
+
+
+/********** FOOTER **********/
+footer{
+	padding: 25px 0;
+	text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Jaldi", sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}

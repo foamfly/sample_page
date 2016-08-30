@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+
+	<!-- CSS bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+
+    <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+
+</head>
+<body class="login">
+<div class="container content">
+	<!-- .login-form begins -->
+	<form class="form-vertical login-form" action="index.html">
+		<h2 class="signin-title">Please Login In</h2>
+		<div class="alert alert-error hide">
+			<button class="close" data-dismiss="alert"></button>
+			<span>Please enter any username and password.</span>
+		</div>
+		<div class="control-group">
+			<label class="control-label">Username:</label>
+			<div class="controls">
+				<div class="input-icon left">
+					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+					<input type="text" name="username" class="m-wrap placeholder-no-fix" placeholder="Username">
+				</div>
+			</div>
+		</div><!-- End of .control-group-->
+		
+		<div class="control-group">
+			<label class="control-label">Password:</label>
+			<div class="controls">
+				<div class="input-icon left">
+					<span class="glyphicon glyphicon-lock"></span>
+					<input type="password" name="password" class="m-wrap placeholder-no-fix" placeholder="Password">
+				</div>
+			</div>
+		</div><!-- End of .control-group -->
+
+		<div class="form-actions">
+			<label class="checkbox">
+			<input type="checkbox" name="remember" value="1">
+				Rememer Me
+			</label>
+			<button type="submit" class="btn btn-primary pull-right">
+				Login
+				<span class="glyphicon glyphicon-ok-sign"></span>
+			</button>
+		</div><!-- End of .form-actions -->
+
+	</form>
+	<!-- End of Login form -->
+</div>
+
+<!-- footer -->
+<footer>
+	<div class="container">
+    	<div class="row">
+      		<div class="col-md-6">
+      			<span class="copyright">Copyright &copy; Qiwen (Flora) Chen 2016</span>
+      		</div>
+      		<div class="col-md-6">
+        		<span>Worcester, MA 01609</span>
+      		</div>
+    	</div>
+  	</div>
+</footer>
+<!-- End of Footer Copyright part -->
+
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

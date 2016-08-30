@@ -1,0 +1,45 @@
+.login .content{
+	background-color: #f4e1d2;
+	width: 291px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	padding: 20px 30px 15px 30px;
+}
+
+.login .content h2{
+	color: #000;
+}
+
+.login .content .login-form{
+	padding: 0px;
+	margin: 0px;
+}
+
+.login .content .m-wrap{
+	width: 249px;
+	border-left: 0 !important;
+}
+
+.login .content .input-icon{
+	border-left:2px solid !important;
+}
+.login .content .control-group{
+	margin-bottom: 20px;
+}
+.login .content .input-icon .m-wrap {
+	margin: 0px;
+}
+.login .content .form-actions{
+	background-color: #f4e1d2;
+} 
+.login .content .form-actions .checkbox {
+  margin-top: 8px;
+  display: inline-block;
+}
+
+@media (max-width: 480px){
+	.login.content{
+		padding: 30px;
+		width: 222px;
+	}
+}
